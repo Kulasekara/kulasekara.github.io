@@ -32,3 +32,17 @@ h1{
     color: #fff;
     text-decoration: none;
 }
+
+/* Image */
+div img{
+    display:inline-block;
+    transform:translatex(44px) translatey(44px);
+    height:247px;
+   }
+   
+   /* Heading */
+   .header nav h1{
+    width:272px;
+    min-height:56px;
+    transform:translatex(-23px) translatey(13px);
+   }

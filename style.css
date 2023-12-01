@@ -1,5 +1,6 @@
 .header{
-
+    
+    margin: 0%;
     min-height: 25px;
     width: 100%;
     background-color: rgb(103, 97, 99);
@@ -33,16 +34,65 @@ h1{
     text-decoration: none;
 }
 
-/* Image */
-div img{
-    display:inline-block;
-    transform:translatex(44px) translatey(44px);
-    height:247px;
-   }
-   
-   /* Heading */
-   .header nav h1{
-    width:272px;
-    min-height:56px;
-    transform:translatex(-23px) translatey(13px);
-   }
+section{
+    background-color:#F2E8E8;
+    margin: 0%;
+    width: 100%;
+}
+
+section img{
+    margin: 20px;
+    margin-left: 0%;
+    max-width: 100%;
+     height: auto; 
+     border-radius: 50%;
+}
+
+section #contact_details{
+    margin: 20px;
+    padding: 20px;
+    width: 30%;
+}
+
+section #contact_details h2{
+    text-align: left;
+    margin-left: 20px;
+}
+
+section #contact_details p{
+    margin-left: 20px;
+    line-height: 20px;
+    text-align: left;
+}
+
+section #contact_details p a{
+    font-style: italic;
+}
+
+section #about_me{
+    margin: 50px;
+    padding: 20px;
+    width: 55%;
+}
+
+section #about_me h2{
+    text-align: center;
+}
+section #about_me h5{
+    display: list-item;
+    margin-left: 20px;
+    line-height: 30px;
+    text-align: left;
+}
+
+section #about_me p{
+    margin-left: 20px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+
+
+
+
+

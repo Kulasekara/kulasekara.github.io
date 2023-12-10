@@ -3,7 +3,7 @@
     margin: 0%;
     min-height: 25px;
     width: 100%;
-    background-color: rgb(103, 97, 99);
+    background-color: #5f0f13;
 }
 
 nav{
@@ -11,10 +11,11 @@ nav{
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
+    
 }
 h1{
     color: #fff;
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bolder;
 }
 .nav-links{
@@ -24,6 +25,7 @@ h1{
 
 .nav-links ul li{
     list-style: none;
+    font-size: large;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
@@ -33,66 +35,145 @@ h1{
     color: #fff;
     text-decoration: none;
 }
+.nav-links ul li a:after{
+    content: "";
+    position: absolute;
+    background-color: #f39013;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+   /* transition: 0.3s;*/
+}
+
+.nav-links ul li a:hover:after{
+    width: 100%;
+}
+
 
 section{
-    background-color:#F2E8E8;
+    background-color:#e2d6e2;
     margin: 0%;
     width: 100%;
 }
 
-section img{
-    margin: 20px;
-    margin-left: 0%;
+section #image1{
+    margin: 10px;
+    margin-left: 40px;
     max-width: 100%;
-     height: auto; 
-     border-radius: 50%;
+    height: auto; 
+    border-radius: 75%;
 }
 
 section #contact_details{
     margin: 20px;
+    margin-left: 40px;
     padding: 20px;
     width: 30%;
 }
 
-section #contact_details h2{
+/*section #contact_details h2{
     text-align: left;
-    margin-left: 20px;
-}
+    margin-left: 90px;
+    color: #97120A;
+    font-weight: bold;
+}*/
 
 section #contact_details p{
-    margin-left: 20px;
+    margin-left: 60px;
     line-height: 20px;
     text-align: left;
+    color: #000;
+    font-weight: bold;
 }
 
 section #contact_details p a{
     font-style: italic;
 }
+.row{
+   
+    width: 100%;
+    background-color:#e2d6e2
+
+}
+
+.body{
+    background-color: #e2d6e2;
+}
 
 section #about_me{
-    margin: 50px;
+    margin: 20px;
     padding: 20px;
     width: 55%;
 }
 
 section #about_me h2{
-    text-align: center;
-}
-section #about_me h5{
-    display: list-item;
-    margin-left: 20px;
-    line-height: 30px;
+    margin-top: 70px;
     text-align: left;
+    margin-bottom: 20px;
+    font-size: xxx-large;
+    color: #f39013;
 }
 
 section #about_me p{
-    margin-left: 20px;
-    line-height: 20px;
-    text-align: justify;
+    margin-top: 100px;
+    font-size:x-large;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-weight: 500;
 }
 
+/*----------Education---------*/
 
+section #university{
+    width: 55%;
+}
 
+section #university h4 {
+    margin-top: 20px;
+    color: #2c2b30;
+}
 
+section #university h3{
+    color: #2c2b30;
+    font-weight: bold;
+}
 
+section #image{
+    margin-left: 30px;
+    width: 15%;
+}
 
+section #module{
+    margin-left: 200px;
+    color: #e2d6e2;
+}
+
+section #module h6{
+    color: #f39013;
+    margin: 20px;
+
+}
+
+section #module p{
+    color: #000;
+    margin: 20px;
+    line-height: 0%;
+    display: list-item;
+
+}
+
+/*Projects*/
+section #projects h3{
+    margin: 20px;
+}
+section #projects p{
+    color: #f39013;
+}
+
+.row div{
+    width: 50%;
+}
+
+section #projects img{
+}

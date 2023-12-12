@@ -1,9 +1,10 @@
 .header{
-    
-    margin: 0%;
     min-height: 25px;
     width: 100%;
     background-color: #5f0f13;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
 }
 
 nav{
@@ -38,7 +39,7 @@ h1{
 .nav-links ul li a:after{
     content: "";
     position: absolute;
-    background-color: #f39013;
+    background-color:#355c7d;
     height: 3px;
     width: 0;
     left: 0;
@@ -49,15 +50,19 @@ h1{
 .nav-links ul li a:hover:after{
     width: 100%;
 }
-
-
-section{
-    background-color:#e2d6e2;
-    margin: 0%;
-    width: 100%;
+body{
+    background-color: #e2d6e2;
 }
 
-section #image1{
+
+/*abput me page*/
+
+.main{
+    padding: 20px;
+    margin-top: 110px;
+}
+
+.main #image1{
     margin: 10px;
     margin-left: 40px;
     max-width: 100%;
@@ -65,21 +70,15 @@ section #image1{
     border-radius: 75%;
 }
 
-section #contact_details{
+.main #contact_details{
     margin: 20px;
     margin-left: 40px;
     padding: 20px;
     width: 30%;
 }
 
-/*section #contact_details h2{
-    text-align: left;
-    margin-left: 90px;
-    color: #97120A;
-    font-weight: bold;
-}*/
 
-section #contact_details p{
+.main #contact_details p{
     margin-left: 60px;
     line-height: 20px;
     text-align: left;
@@ -87,27 +86,16 @@ section #contact_details p{
     font-weight: bold;
 }
 
-section #contact_details p a{
+.main #contact_details p a{
     font-style: italic;
 }
-.row{
-   
-    width: 100%;
-    background-color:#e2d6e2
-
-}
-
-.body{
-    background-color: #e2d6e2;
-}
-
-section #about_me{
+.main #about_me{
     margin: 20px;
     padding: 20px;
     width: 55%;
 }
 
-section #about_me h2{
+.main #about_me h2{
     margin-top: 70px;
     text-align: left;
     margin-bottom: 20px;
@@ -115,8 +103,8 @@ section #about_me h2{
     color: #f39013;
 }
 
-section #about_me p{
-    margin-top: 100px;
+.main #about_me p{
+    margin-top: 10px;
     font-size:x-large;
     margin-top: 0%;
     margin-bottom: 0%;
@@ -125,55 +113,112 @@ section #about_me p{
 
 /*----------Education---------*/
 
-section #university{
+.row #university{
     width: 55%;
 }
 
-section #university h4 {
+#university h4 {
     margin-top: 20px;
     color: #2c2b30;
 }
 
-section #university h3{
+#university h3{
     color: #2c2b30;
     font-weight: bold;
 }
 
-section #image{
+#image{
     margin-left: 30px;
+    margin-top: 10px;
     width: 15%;
 }
 
-section #module{
+#module{
     margin-left: 200px;
     color: #e2d6e2;
 }
 
-section #module h6{
+#module div{
+    width: 50%;
+}
+
+#module h6{
     color: #f39013;
     margin: 20px;
 
 }
 
-section #module p{
+#module p{
     color: #000;
     margin: 20px;
     line-height: 0%;
     display: list-item;
 
 }
+/*Experiance*/
 
 /*Projects*/
-section #projects h3{
+
+#projects{
     margin: 20px;
 }
-section #projects p{
+
+#projects p{
     color: #f39013;
 }
 
-.row div{
-    width: 50%;
+/*project1*/
+#list11 div{
+    width: fit-content;
 }
 
-section #projects img{
+#list11 p{
+    display: list-item;
+}
+
+#list12 img{
+    display: block;
+  max-width:230px;
+  max-height:95px;
+  width: auto;
+  height: auto;
+}
+/*project2*/
+#project2 img{
+    display: block;
+  max-width:400px;
+  max-height:400px;
+  width: auto;
+  height: auto;
+}
+#tools img{
+    display: block;
+  max-width:230px;
+  max-height:95px;
+  width: auto;
+  height: auto;
+}
+/*project3*/
+#project3 img{
+    display: block;
+  max-width:1000px;
+  max-height:1000px;
+  width: auto;
+  height: auto;
+}
+/*project4*/
+#project4 img{
+    display: block;
+  max-width:1200px;
+  max-height:1200px;
+  width: auto;
+  height: auto;
+}
+/*project5*/
+#project5 img{
+    display: block;
+  max-width:1000px;
+  max-height:1000px;
+  width: auto;
+  height: auto;
 }

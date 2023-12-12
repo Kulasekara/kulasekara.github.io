@@ -6,6 +6,7 @@
     overflow: hidden;
     position: fixed;
     top: 0;
+    z-index:1
 }
 
 .header nav ul{
@@ -137,6 +138,7 @@ body{
 
 .row #university{
     width: 55%;
+    height: fit-content;
 }
 
 #university h4 {
@@ -145,16 +147,22 @@ body{
 }
 
 #university h3{
-    color: #2c2b30;
+    color: #ffffff;
     font-weight: bold;
 }
-
+#university{
+    transform:translatex(-39px) translatey(-4px);
+    color:#ffffff;
+   }
 #image{
     margin-left: 30px;
     margin-top: 10px;
     width: 15%;
+    transform:translatex(-24px) translatey(-28px);
 }
-
+#name{
+    color:#ffffff !important;
+   }
 #module{
     margin-left: 200px;
     color: #e2d6e2;
@@ -162,16 +170,18 @@ body{
 
 #module div{
     width: 50%;
+    transform:translatex(0px) translatey(-86px);
+    color:#ffffff;
 }
 
 #module h6{
-    color: #f39013;
+    color: #ffffff;
     margin: 20px;
 
 }
 
 #module p{
-    color: #000;
+    color: #ffeee5;
     margin: 20px;
     line-height: 0%;
     display: list-item;

@@ -1,11 +1,16 @@
 .header{
     min-height: 25px;
     width: 100%;
-    background-color: #5f0f13;
+    background-color:#000000;
+    background-image:linear-gradient(-90deg, #f3904f 0%, #3b4371 100%);
     overflow: hidden;
     position: fixed;
     top: 0;
 }
+
+.header nav ul{
+    height:25px;
+   }
 
 nav{
     display: flex;
@@ -14,10 +19,13 @@ nav{
     align-items: center;
     
 }
-h1{
+.header nav h1{
     color: #fff;
-    font-size: 40px;
     font-weight: bolder;
+    width:436px;
+    margin-bottom:0px;
+    font-size:45px;
+    transform:translatex(-34px) translatey(-3px);
 }
 .nav-links{
     flex: 1;
@@ -30,11 +38,14 @@ h1{
     display: inline-block;
     padding: 8px 12px;
     position: relative;
+
 }
 
 .nav-links ul li a{
     color: #fff;
     text-decoration: none;
+    font-weight:600;
+    font-size:20px;
 }
 .nav-links ul li a:after{
     content: "";
@@ -51,7 +62,8 @@ h1{
     width: 100%;
 }
 body{
-    background-color: #e2d6e2;
+    background-color:#ffcc99;
+    background-image:linear-gradient(-90deg, rgb(243,144,79) 0%, rgb(59,67,113) 100%);
 }
 
 
@@ -68,6 +80,8 @@ body{
     max-width: 100%;
     height: auto; 
     border-radius: 75%;
+    display:inline-block;
+    transform:translatex(10px) translatey(-42px);
 }
 
 .main #contact_details{
@@ -82,7 +96,7 @@ body{
     margin-left: 60px;
     line-height: 20px;
     text-align: left;
-    color: #000;
+    color:#ffffff;
     font-weight: bold;
 }
 
@@ -93,6 +107,13 @@ body{
     margin: 20px;
     padding: 20px;
     width: 55%;
+    background-color:transparent;
+    transform:translatex(16px) translatey(-16px);
+    padding-right:0px !important;
+    margin-right:133px !important;
+    padding-left:0px !important;
+    height:473px;
+    padding-top:23px !important;
 }
 
 .main #about_me h2{
@@ -100,7 +121,7 @@ body{
     text-align: left;
     margin-bottom: 20px;
     font-size: xxx-large;
-    color: #f39013;
+    color: #fff;
 }
 
 .main #about_me p{
@@ -109,6 +130,7 @@ body{
     margin-top: 0%;
     margin-bottom: 0%;
     font-weight: 500;
+    color: #fff;
 }
 
 /*----------Education---------*/
@@ -222,3 +244,5 @@ body{
   width: auto;
   height: auto;
 }
+
+/*Edit*/

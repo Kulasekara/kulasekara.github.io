@@ -214,6 +214,12 @@ body{
 
 #projects p{
     color: #ffffff;
+    margin-left: 10px;
+}
+
+#projects div{
+    margin:20px;
+    margin-bottom: 40px;
 }
 /* All sub projects*/
 .mainPrDetails{
@@ -222,12 +228,23 @@ body{
     padding-left:57px;
     color:#ffffff;
    }
-#project1br {
+
+#project1p{
+    margin: 30px;
+}
+#project1p p{
     display: list-item;
+    line-height: 10px;
 }
 
 #project1image div{
     width: 50%;
+}
+#project1image img{
+    margin-top: 40px;
+}
+#project1image video{
+    margin-left: 30px;
 }
 
 
